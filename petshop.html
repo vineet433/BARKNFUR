@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <title>BARK N FUR</title>
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f7f9fc;
+    }
+    
+    /* NAVBAR */
+    .navbar {
+      position: sticky;
+      top: 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 40px;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(12px);
+      color: white;
+    }
+    
+    .logo {
+      width: 55px;
+      height: 55px;
+      border-radius: 12px;
+    }
+    
+    .nav-links a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: white;
+    }
+    
+    /* HERO */
+    .hero {
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+        url('https://images.unsplash.com/photo-1548199973-03cce0bbc87b') center/cover;
+      color: white;
+      text-align: center;
+    }
+    
+    .hero h1 {
+      font-size: 55px;
+    }
+    
+    /* ABOUT */
+    .about {
+      margin: 60px;
+      padding: 40px;
+      background: white;
+      border-radius: 15px;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    }
+    
+    .about img {
+      width: 320px;
+      border-radius: 15px;
+    }
+    
+    /* SERVICES */
+    .services {
+      padding: 60px;
+      text-align: center;
+    }
+    
+    .service-box {
+      display: inline-block;
+      width: 260px;
+      margin: 15px;
+      padding: 15px;
+      background: white;
+      border-radius: 15px;
+      transition: 0.3s;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .service-box:hover {
+      transform: translateY(-10px);
+    }
+    
+    .service-image img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    
+    /* PRODUCTS */
+    .products {
+      padding: 60px;
+      background: #eef2f7;
+      text-align: center;
+    }
+    
+    .product-card {
+      display: inline-block;
+      width: 220px;
+      margin: 15px;
+      padding: 20px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* FEEDBACK */
+    .feedback {
+      margin: 60px;
+      padding: 40px;
+      background: #111;
+      color: white;
+      border-radius: 15px;
+    }
+    
+    .feedback-card {
+      border: 1px solid #444;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+    }
+    
+    .stars {
+      color: gold;
+    }
+    
+    /* CONTACT */
+    .contact {
+      margin: 60px;
+      padding: 40px;
+      background: white;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact h2 {
+      margin-bottom: 10px;
+    }
+    
+    .contact p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    
+    .phone {
+      font-size: 22px;
+      font-weight: bold;
+      color: #ff9800;
+    }
+    
+    /* FOOTER */
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: white;
+    }
+    
+    /* MOBILE */
+    @media (max-width: 768px) {
+      .about {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+    .png{
+      width:100px;
+      border-radius:15px ;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="logo">
+      <img class="png"src="Untitled51_20260417134709.png" alt="Our Pet Shop">
+    </div>
+    <div class="nav-links">
+      <a href="#feedback">Feedback</a>
+      <a href="https://www.google.com/maps/place/BarknFurs+(+Pet+Grooming+Salon+%26+Pet+Store+Bhubaneswar+)/@20.3040615,85.7901764,12z/data=!4m10!1m2!2m1!1sbark+n+furs!3m6!1s0x3a1909a8f957bd4d:0x6b6b9464c14b5b95!8m2!3d20.3308552!4d85.8088184!15sCgtiYXJrIG4gZnVyc1oNIgtiYXJrIG4gZnVyc5IBCXBldF9zdG9yZeABAA!16s%2Fg%2F11svlbp5pg?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Location</a>
+    </div>
+  </div>
+  
+  <!-- HERO -->
+  <div class="hero">
+    <div>
+      <h1>BarknFur 🐾</h1>
+      <p>Premium Care for Your Pets</p>
+    </div>
+  </div>
+  
+  <!-- ABOUT -->
+  <div class="about">
+    <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d">
+    <div>
+      <h2>Why Choose Us?</h2>
+      <p>We provide high-quality products, expert grooming, and a loving environment for your pets.</p>
+    </div>
+  </div>
+  
+  <!-- SERVICES -->
+  <div class="services">
+    <h2>Our Services</h2>
+    
+    <div class="service-box">
+      <div class="service-image">
+        <img src="IMG_0867.jpeg" alt="Grooming">
+      </div>
+      <h3>Grooming</h3>
+      <p>Professional grooming to keep your pet clean and stylish.</p>
+    </div>
+    
+    <div class="service-box">
+      <div class="service-image">
+        <img src="IMG_0868.jpeg" alt="Bath & Spa">
+      </div>
+      <h3>Bath & Spa</h3>
+      <p>Relaxing bath and spa treatments for a fresh and happy pet.</p>
+    </div>
+    
+  </div>
+  
+  <!-- PRODUCTS -->
+  <div class="products">
+    <h2>Popular Products</h2>
+    
+    <div class="product-card">Dog Food</div>
+    <div class="product-card">Cat Toys</div>
+  </div>
+  
+  <!-- FEEDBACK -->
+  <div id="feedback" class="feedback">
+    <h2>Customer Feedback</h2>
+    
+    <div class="feedback-card">
+      <h3>Mohit</h3>
+      <p>"Amazing service and healthy pets! The staff helped me choose the perfect food."</p>
+      <div class="stars">★★★★★</div>
+    </div>
+    
+    <div class="feedback-card">
+      <h3>Amit</h3>
+      <p>"Very professional staff and great grooming service."</p>
+      <div class="stars">★★★★☆</div>
+    </div>
+    
+    <div class="feedback-card">
+      <h3>Priya</h3>
+      <p>"Clean place and excellent product variety."</p>
+      <div class="stars">★★★★☆</div>
+    </div>
+    
+  </div>
+  
+  <!-- CONTACT -->
+  <div class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to book a service? Call us now!</p>
+    <p class="phone">📞 8883339158</p>
+  </div>
+  
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>© 2026 BarknFur</p>
+  </div>
+  
+</body>
+
+</html>
